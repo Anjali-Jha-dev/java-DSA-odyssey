@@ -1,4 +1,4 @@
-class Solution {
+class SecondLargest {
     public int getSecondLargest(int[] arr) {
         //return -1 if arr is null or array length is less than 2
         if(arr == null || arr.length < 2){
