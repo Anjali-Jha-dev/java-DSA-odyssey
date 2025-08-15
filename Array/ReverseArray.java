@@ -1,0 +1,16 @@
+class ReverseArray {
+    public void solution(int arr[]) {
+        int first = 0;
+        int last = arr.length - 1;
+        
+        while(last > first)
+        {
+            int temp = arr[first];
+            arr[first] = arr[last];
+            arr[last] = temp;
+            first++;
+            last--;
+        }
+        
+    }
+}
